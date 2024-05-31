@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL 2024</title>
+    <link rel="icon" href="public/NFL.png">
+    <link rel="stylesheet" href="public/style.css">
+</head>
+<body>
+    
+    <div class="banner"> 
+        
+        <div class="header" id="home"> 
+            <nav>
+                <a href="#"><img src="public/NFL.png" class="logo" alt="Logo" title="NFL"></a>
+                
+                <u class="navbar">
+                    <li><a href="#home_content">Schedule</a></li>
+                    <li><a href="#standings">Standings</a></li>
+                </u>
+            </nav>
+        </div>
+    </div>
+
+    <section class="home_content" id="home_content">
+        <div class="content">
+
+            <h2>Group Stage Schedule</h2>
+    
+            <table id="schedule">
+                <tr>
+                    <th>Match No. </th>
+                    <th>Time</th>
+                    <th>Court 1</th>
+                    <th>Court 2</th>
+                </tr>
+
+                <tr>
+                    <td>Match No. 1</td>
+                    <td>10:00 AM</td>
+                    <td>  Harami vs   Ravens</td>
+                    <td>  Network Warriors vs   Dominators</td>
+                </tr>
+                <tr>
+                    <td>Match No. 2</td>
+                    <td>10:15 AM</td>
+                    <td>  JD vs   Marco Polo</td>
+                    <td>  Ballers vs   Manchester</td>
+                </tr>
+                <tr>
+                    <td>Match No. 3</td>
+                    <td>10:30 AM</td>
+                    <td>  Gunners vs   NIBM ST</td>
+                    <td>  Feet Talkers vs   Immortals</td>
+                </tr>
+                <tr>
+                    <td>Match No. 4</td>
+                    <td>10:45 AM</td>
+                    <td>  Patrons vs   Black Pack</td>
+                    <td>  Spiderzzz vs   NIBM All Stars</td>
+                </tr>
+                <tr>
+                    <td>Match No. 5</td>
+                    <td>11:00 AM</td>
+                    <td>  Ravens vs   Gunners</td>
+                    <td>  Dominators vs   Feet Talkers</td>
+                </tr>
+                <tr>
+                    <td>Match No. 6</td>
+                    <td>11:15 AM</td>
+                    <td>  Marco Polo vs   Patrons</td>
+                    <td>  Manchester vs   Spiderzzz</td>
+                </tr>
+                <tr>
+                    <td>Match No. 7</td>
+                    <td>11:30 AM</td>
+                    <td>  Harami vs   Gunners</td>
+                    <td>  Network Warriors vs   Feet Talkers</td>
+                </tr>
+                <tr>
+                    <td>Match No. 8</td>
+                    <td>11:45 AM</td>
+                    <td>  JD vs   Patrons</td>
+                    <td>  Ballers vs   Spiderzzz</td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"><b>BREAK</b></td>
+                </tr>
+
+                <tr>
+                    <td>Match No. 9</td>
+                    <td>12:30 PM</td>
+                    <td>  Ravens vs   NIBM ST</td>
+                    <td>  Dominators vs   Immortals</td>
+                </tr>
+                <tr>
+                    <td>Match No. 10</td>
+                    <td>12:45 PM</td>
+                    <td>  Marco Polo vs   Black Pack</td>
+                    <td>  Manchester vs   NIBM All Stars</td>
+                </tr>
+                <tr>
+                    <td>Match No. 11</td>
+                    <td>1:00 PM</td>
+                    <td>  Harami vs   NIBM ST</td>
+                    <td>  Network Warriors vs   Immortals</td>
+                </tr>
+                <tr>
+                    <td>Match No. 12</td>
+                    <td>1:15 PM</td>
+                    <td>  JD vs   Black Pack</td>
+                    <td>  Ballers vs   NIBM All Stars</td>
+                </tr>
+                <tr>
+                    <td>Match No. 13</td>
+                    <td>1:30 PM</td>
+                    <td colspan="2">  Committee Match</td>
+                </tr>
+                <tr>
+                    <th colspan="4">PlayOff</th> <!-- Merged header for PlayOff -->
+                </tr>
+                <tr>
+                    
+                    <td>Match No. 13</td>
+                    <td>2:30 PM</td>
+                    <td><b>Q1</b> - Group A: 1st vs Group C: 2nd</td>
+                    <td><b>Q2</b> - Group B: 1st vs Group D: 2nd</td>
+                </tr>
+                <tr>
+                    <td>Match No. 14</td>
+                    <td>3:00 PM</td>
+                    <td><b>Q3</b> - Group A: 2nd vs Group C: 1st</td>
+                    <td><b>Q4</b> - Group B: 2nd vs Group D: 1st</td>
+                </tr>
+                <tr>
+                    <td>Match No. 15</td>
+                    <td>4:00 PM</td>
+                    <td><b>S1</b> - Q1 Winner vs Q3 Winner</td>
+                    <td><b>S2</b> - Q2 Winner vs Q4 Winner</td>
+                </tr>
+                <tr>
+                    <td>Match No. 16</td>
+                    <td>5:00 PM</td>
+                    <td colspan="2"><b><i>Final <br> S1 Winner vs S2 Winner </i></b></td>
+                    <td></td>
+                </tr>
+    
+            </table>
+        </div>
+    </section>
+
+    <section class="standings" id="standings">
+
+        <h2>NIBM Futsal Leaue Standings</h2>
+        <div class="standings">
+            <table id="standings_table">
+
+        <!--Group A points Table-->
+                <tr>
+                    <th>Group A</th>
+                    <th>P</th>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>L</th>
+                    <th>GF</th>
+                    <th>GA</th>
+                    <th>GD</th>
+                    <th>PTS</th>
+                </tr>
+
+        <!--Team Harami-->
+                <tr>
+                    <td>Team Harami</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+        <!--Team Ravens-->
+                <tr>
+                    <td>Team Ravens</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+        <!--Team Gunners-->
+                <tr>
+                    <td>Team Gunners</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+        <!--Team NIBM ST-->
+                <tr>
+                    <td>Team NIBM ST</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+
+        <!--Group B points Table-->
+                <tr>
+                    <th>Group B</th>
+                    <th>P</th>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>L</th>
+                    <th>GF</th>
+                    <th>GA</th>
+                    <th>GD</th>
+                    <th>PTS</th>
+                </tr>
+
+        <!--Team JD-->
+                <tr>
+                    <td>Team JD</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+        <!--Team Marco Polo-->
+                <tr>
+                    <td>Team Marco Polo</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+        <!--Team Patrons -->
+                <tr>
+                    <td>Team Patrons</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+        <!--Team Black Pack-->
+                <tr>
+                    <td>Team Black Pack</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+        <!--Group C points Table-->
+                <tr>
+                    <th>Group C</th>
+                    <th>P</th>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>L</th>
+                    <th>GF</th>
+                    <th>GA</th>
+                    <th>GD</th>
+                    <th>PTS</th>
+                </tr>
+
+        <!--Team Network Warriors-->
+                <tr>
+                    <td>Team Network Warriors</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+        <!--Team Dominators-->
+                <tr>
+                    <td>Team Dominators</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+        <!--Team Feet Talkers-->
+                <tr>
+                    <td>Team Feet Talkers</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+        <!--Team Immortals-->
+                <tr>
+                    <td>Team Immortals</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+
+        <!--Group D points Table-->
+                <tr>
+                    <th>Group D</th>
+                    <th>P</th>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>L</th>
+                    <th>GF</th>
+                    <th>GA</th>
+                    <th>GD</th>
+                    <th>PTS</th>
+                </tr>
+
+        <!--Team Ballers-->
+                <tr>
+                    <td>Team Ballers</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+        <!--Team Manchester-->
+                <tr>
+                    <td>Team Manchester</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+        <!--Team Spiderzzzz-->
+                <tr>
+                    <td>Team Spiderzzzz</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+        <!--Team NIBM All Stars-->
+                <tr>
+                    <td>Team NIBM All Stars</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+
+                
+            </table>
+        </div>
+    </section>
+
+    <script>
+        // JavaScript function to scroll to the correct position when clicking on links
+        document.querySelectorAll('.navbar a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const sectionId = this.getAttribute('href');
+                const section = document.querySelector(sectionId);
+
+                window.scrollTo({
+                    top: section.offsetTop - 100, // Adjust scroll position to offset navbar height
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
